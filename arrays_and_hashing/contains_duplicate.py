@@ -1,5 +1,6 @@
 class Solution: 
     def containsDuplicate(self, nums:list[int]) -> bool: 
+        dict = {}
         for item in nums:
                dict = {}
         x = 0
